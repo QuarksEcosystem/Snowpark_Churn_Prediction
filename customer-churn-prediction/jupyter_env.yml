@@ -1,0 +1,14 @@
+# conda env create -f jupyter_env.yml
+# activate conda getting_started_snowpark_python
+name: getting_started_snowpark_python
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - jupyter
+  - numpy
+  - matplotlib
+  - seaborn
+  - snowflake-snowpark-python
+  - pandas
